@@ -1,0 +1,10 @@
+Amelia,User
+{#Data.Amelia_SpanishWelcomeMessage},
+{#Data.Amelia_SpanishWelcomeMessage_second},{#Data.Amelia_Epic_F_ES_Command_AccountIssuesListOptions}
+~.*(correo electrónico|dirección).*,{#Data.Amelia_Epic_F_ES_SP_ES8_InactiveWiam_EX}
+~.*((?=.*1-Necesito una nueva contraseña de Windows.)(?=.*2-Mi cuenta está bloqueada.)(?=.*3-Mi cuenta se encuentra en el estatus Dormant y no puedo entrar en Windows.)(?=.*ayudarte)(?=.*problemas)).*,Amelia_Button_F_ES_DormantAccountFlow
+~.*(ayudarte|problema|cuenta|inactiva).*,
+~.*(cuenta está deshabilitada|responsable|IDM|activarla).*,
+incident_id,
+{#Data.Amelia_SpanishClosingMessage},
+{#Data.Amelia_SpanishClosingMessage_second},

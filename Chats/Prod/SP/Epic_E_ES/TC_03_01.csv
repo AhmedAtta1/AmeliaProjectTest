@@ -1,0 +1,7 @@
+Amelia,User
+{#Data.Amelia_SpanishWelcomeMessage},
+{#Data.Amelia_SpanishWelcomeMessage_second},{#Data.Amelia_Epic_E_ES_Command_TicketCheck}{#Data.Amelia_Production_Code}
+~.*(correo electrónico|dirección).*,{#Data.Amelia_Epic_C_ES_SP_CallCenter}
+"Por el momento estas fuera del alcance de nuestro soporte. Por favor, ponte en contacto con el siguiente equipo de soporte el cual puedes contactar por correo electrónico: cimad@vodafone.com o por teléfono: (0671) 32222 y elije la Opción 1.",
+{#Data.Amelia_SpanishClosingMessage},
+{#Data.Amelia_SpanishClosingMessage_second},

@@ -1,0 +1,8 @@
+Amelia,User
+{#Data.Amelia_SpanishWelcomeMessage},
+{#Data.Amelia_SpanishWelcomeMessage_second},{#Data.Amelia_Epic_F_ES_Command_AccountIssuesListOptions}{#Data.Amelia_Production_Code}
+~.*(correo electrónico|dirección).*,{#Data.Amelia_Epic_C_ES_UK_Unsupported}
+~.*(Desafortunadamente|soporte|mercado).*,
+~.*((?=.*Support-Contact)(?=.*número corespondiente)(?=.*soporte)).*,
+{#Data.Amelia_SpanishClosingMessage},
+{#Data.Amelia_SpanishClosingMessage_second},

@@ -1,0 +1,10 @@
+Amelia,User
+{#Data.Amelia_SpanishWelcomeMessage},
+{#Data.Amelia_SpanishWelcomeMessage_second},{#Data.Amelia_Epic_F_ES_Command_UnlockAccountWrapper}
+~.*((?=.*1-Cuenta de inicio a Windows)(?=.*2-Aplicaciones de negocio de Vodafone)(?=.*3-Otras)(?=.*aplicaciones)(?=.*desbloqueo de cuenta)).*,Amelia_Button_Wrappers_ES_1
+~.*(ayudarte|problema|cuenta|bloqueada).*,
+~.*((?=.*verificado)(?=.*la he desbloqueado)(?=.*espera 2-3 minutos)(?=.*iniciar)(?=.*¿Ha funcionado?)).*,Amelia_Button_F_ES_YES
+~.*(bloquea|constantemente|problema|recurrente).*,Amelia_Button_F_ES_NO
+incident_id,
+{#Data.Amelia_SpanishClosingMessage},
+{#Data.Amelia_SpanishClosingMessage_second},

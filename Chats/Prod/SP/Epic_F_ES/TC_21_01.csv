@@ -1,0 +1,21 @@
+Amelia,User
+{#Data.Amelia_SpanishWelcomeMessage},
+{#Data.Amelia_SpanishWelcomeMessage_second},{#Data.Amelia_Epic_F_ES_Command_AccountIssuesListOptions}
+~.*(correo electrónico|dirección).*,{#Data.Amelia_Epic_E_ES_SP_ES1}
+~.*((?=.*1-Necesito una nueva contraseña de Windows.)(?=.*2-Mi cuenta está bloqueada.)(?=.*3-Mi cuenta se encuentra en el estatus Dormant y no puedo entrar en Windows.)(?=.*ayudarte)(?=.*problemas)).*,Amelia_Button_F_ES_PasswordResetFlow
+~.*(ayudarte|reseteo|contraseña).*,
+~.*(teléfono|número|finaliza).*,Amelia_Button_F_ES_YES
+~.*(corporativa|conectado|directamente|red).*,Amelia_Button_F_ES_YES
+~.*(código|único|SMS|minutos|proporciónamelo).*,1234
+~.*(OTP|proporcionada|incorrecta).*,
+~.*(código|único|SMS|minutos|proporciónamelo).*,1234
+~.*(OTP|proporcionada|incorrecta).*,
+~.*(código|único|SMS|minutos|proporciónamelo).*,1234
+~.*(OTP|proporcionada|incorrecta).*,
+~.*(escalar|chat|fuera|horario|laboral).*,
+"~.*(número|contacto|facilitarme,).*",1066608126
+~.*(experiencia|agente|contacte|horario|mejor).*,Amelia_Button_C_ES_12PM
+~.*(datos|contacten|horario|laboral|agentes).*,
+incident_id,
+{#Data.Amelia_SpanishClosingMessage},
+{#Data.Amelia_SpanishClosingMessage_second},

@@ -1,0 +1,14 @@
+Amelia,User
+{#Data.Amelia_SpanishWelcomeMessage},
+{#Data.Amelia_SpanishWelcomeMessage_second},{#Data.Amelia_Epic_E_ES_Command_TicketCheck}
+~.*(correo electrónico|dirección).*,{#Data.Amelia_Epic_E_ES_SP_2}
+~.*(Por favor|elija|opciones).*,Amelia_Button_E_ES_ReopenTicket
+~.*((?=.*ayudarte)(?=.*reapertura)(?=.*alegra)).*,
+~.*(¿Sabes|número|ticket).*,Amelia_Button_E_ES_NO
+~.*((?=.*verificado)(?=.*últimos)|(?=.*5 tickets)(?=.*Número de ticket)(?=.*Resumen)(?=.*Fecha de reporte)).*,Amelia_Button_E_ES_YES
+~.*(¿Cuál|número|ticket).*,{#Data.Ameila_Epic_E_ES_OnlyResolvedTicket_REQ}
+~.*((?=.*estado)(?=.*ticket)(?=.*Resuelto)).*,
+~.*(problema|resuelto).*,Amelia_Button_E_ES_NO
+~.*(reabrir|ticket).*,Amelia_Button_E_ES_NO
+{#Data.Amelia_SpanishClosingMessage},
+{#Data.Amelia_SpanishClosingMessage_second},
