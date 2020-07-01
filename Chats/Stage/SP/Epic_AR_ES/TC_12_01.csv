@@ -1,0 +1,7 @@
+Amelia,User
+{#Data.Amelia_SpanishWelcomeMessage},
+{#Data.Amelia_SpanishWelcomeMessage_second},{#Data.Amelia_Epic_AR_ES_Command_Onbehalf}
+~.*(correo electrónico|dirección).*,{#Data.Amelia_Epic_AR_ES_SP}
+"No puedo continuar adelante, como se trata de otra persona.",
+{#Data.Amelia_SpanishClosingMessage},
+{#Data.Amelia_SpanishClosingMessage_second},

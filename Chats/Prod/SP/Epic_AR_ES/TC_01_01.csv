@@ -1,0 +1,13 @@
+Amelia,User
+{#Data.Amelia_SpanishWelcomeMessage},
+{#Data.Amelia_SpanishWelcomeMessage_second},{#Data.Amelia_Epic_AR_ES_Command_VodafoneBusinessApplication}{#Data.Amelia_Production_Code}
+~.*(correo electrónico|dirección).*,AhmedAtta.2014@vodafone.com
+~.*(cuenta|usuario|no existe).*,
+~.*(dirección|correo electrónico|no es correcta|introducida).*,
+~.*((?=.*nombre. Apellido@vodafone.com)|(?=.*logincorto@corp.vodafone.es)|(?=.*correo electrónico)).*,
+~.*(correo electrónico|dirección).*,Ahmed.Atta1@Gmail.com
+~.*(dirección|correo electrónico|no es correcta|introducida).*,
+~.*((?=.*nombre. Apellido@vodafone.com)|(?=.*logincorto@corp.vodafone.es)|(?=.*correo electrónico)).*,
+~.*(correo electrónico|dirección).*,AhmedAtta.2014@vodafone.com
+~.*(cuenta|usuario|no existe).*,
+~.*(la espera|contacto|agente|ayudarte|minutos).*,

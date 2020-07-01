@@ -1,0 +1,16 @@
+Amelia,User
+{#Data.Amelia_SpanishWelcomeMessage},
+{#Data.Amelia_SpanishWelcomeMessage_second},{#Data.Amelia_Epic_AR_ES_Command_VodafoneBusinessApplication}
+~.*(correo electrónico|dirección).*,{#Data.Amelia_Epic_AR_ES_SP}
+~.*(aplicación|instalada|¿donde).*,
+~.*(elija|siguientes|opciones).*,Amelia_Button_AR_ES_IDontKnow
+~.*((?=.*Local)|(?=.*Citrix)|(?=.*Web)).*,
+~.*(elija|siguientes|opciones).*,Amelia_Button_AR_ES_WEB
+~.*((?=.*proxy)|(?=.*2-Internet Explorer)|(?=.*error)|(?=.*4-Necesito acceso)|(?=.*desbloquear cuenta)|(?=.*6-Otras.)|(?=.*problema)).*,Amelia_Button_AR_ES_OptionSix
+~.*(escalar|chat|fuera|horario|laboral).*,
+"~.*(número|contacto|facilitarme,).*",1066608126
+~.*(experiencia|agente|contacte|horario|mejor).*,Amelia_Button_C_ES_15PM
+~.*(datos|contacten|horario|laboral|agentes).*,
+incident_id,
+{#Data.Amelia_SpanishClosingMessage},
+{#Data.Amelia_SpanishClosingMessage_second},

@@ -1,0 +1,8 @@
+Amelia,User
+{#Data.Amelia_SpanishWelcomeMessage},
+{#Data.Amelia_SpanishWelcomeMessage_second},{#Data.Amelia_Epic_AR_ES_Command_VodafoneBusinessApplication}
+~.*(correo electrónico|dirección).*,{#Data.Amelia_Epic_AR_ES_SP}
+~.*(aplicación|instalada|¿donde).*,
+~.*(elija|siguientes|opciones).*,Amelia_Button_AR_ES_Citrix
+~.*((?=.*1-Mi aplicación no arranca.)|(?=.*falta desde Citrix)|(?=.*3-Necesito acceso)|(?=.*restablecer contraseña)|(?=.*5-Otras.)|(?=.*problema)).*,Amelia_Button_AR_ES_OptionFive
+~.*(la espera|contacto|agente|ayudarte|minutos).*,
