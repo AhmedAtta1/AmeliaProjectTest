@@ -1,0 +1,8 @@
+Amelia,User
+{#Data.Amelia_SpanishWelcomeMessage},
+{#Data.Amelia_SpanishWelcomeMessage_second},Agente
+~.*(agente|proporcionar|detalles|solicitud|problema).*,Agente
+~.*(agente|proporcionar|detalles|solicitud|problema).*,Agente
+~.*((?=.*Otros / Agente)|(?=.*seleccionar)|(?=.*opciones)).*,
+"~.*((?=.*1- Contraseña de Windows)|(?=.*2- Bitlocker)|(?=.*3- Información sobre un ticket)|(?=.*4- Lync/Skype)|(?=.*5- Aplicaciones de negocio)|(?=.*6- Instalar un programa)|(?=.*7- Unidades de Red)|(?=.*8- Outlook)|(?=.*9- Preguntas Frecuentes)|(?=.*10- Mantenimiento, EVO, HR, etc)|(?=.*11- Otros / Agente)|(?=.*seleccionar)).*",Amelia_Button_Zero_ES_Others
+~.*(la espera|contacto|agente|ayudarte|minutos).*,
