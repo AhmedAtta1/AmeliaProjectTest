@@ -1,0 +1,24 @@
+Amelia,User
+{#Data.Amelia_WelcomeMessage},I want application access{#Data.Amelia_Production_Code}
+~.*(help|access|request|Service/Application|enter).*,Cramer
+~.*(wait|checking|account|details).*,
+~.*(email|address).*,{#Data.Amelia_Epic_ACD_Email_VFUK11}
+~.*(searching|application|your).*,
+~.*(select|type|Application|Name|list|below|option).*,Cramer (UK Fixed Line)
+~.*((?=.*help)(?=.*Application/Service)(?=.*Request)).*,
+~.*(select|Application|more|one|option).*,Cramer - OFFSHORE (WWC) (Application Access)
+~.*(select|Request|Type).*,Amelia_Button_Grant_Access
+~.*((?=.*90 days)(?=.*Cramer)(?=.*Vodafone account usage policy)).*,
+~.*(raising|Request|yourself).*,Amelia_Button_Yes
+~.*(colleagues|enter|name).*,Amelia Testing
+~.*(Vodafone|enter|EVO).*,Amelia Testing
+~.*(enter|Employee|Number).*,Amelia Testing
+~.*(user|enter|email|address).*,Amelia Testing
+~.*(details|enter|existing|user|mirrored).*,Amelia Testing
+~.*(attachments|include|Request).*,Amelia_Button_No
+~.*(add|comments).*,N/A
+~.*(wait|moment|create).*,
+incident_id,
+~.*(complete|survey|reset|conversation).*,
+~.*(Thank|you).*,
+~.*(start|chat|another).*,

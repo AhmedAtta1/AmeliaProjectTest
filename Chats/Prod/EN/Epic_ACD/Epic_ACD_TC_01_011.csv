@@ -1,0 +1,5 @@
+Amelia,User
+{#Data.Amelia_WelcomeMessage},I want to add to mailbox rRzWq4GdVpHev39ytD
+~.*(help|access|request|shared|mailbox).*,
+~.*(email|address).*,Kirsty.bright@vodafone.com
+~.*(Distribution|List).*,Amelia_Button_No
